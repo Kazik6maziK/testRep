@@ -1,6 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  position: relative;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.f1 {
+  font-family: 'Inika';
+  font-style: normal;
+}
+.f2 {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+header {
+  max-width: 1440px;
+  height: 134px;
+  background: #EDF2EC;
+}
+.nav-bar {
+  max-width: 1220px;
+  height: 50px;
+  display: flex;
+  margin: 42px 109px 42px 111px;
+}
+
+.logo {
+  margin: 10px 0 20px 1px;
+  display: flex;
+}
+
+.container h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 4px 0 0 1px;
+}
+nav {
+
+}
+.nav-list {
+  width: 452px;
+  height: 50px;
+  margin: 0 109px 0 688px;
+}
+.nav-link {
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  margin: 0;
+}
+.nav-link a:hover {
+  transition: 0.2s;
+  color: #E06733;
+}
+
+
+
+
+/*MAIN*/
+.welcome {
+  max-width: 1440px;
+  height: 532px;
+  background: #EDF2EC;
+}
+.welc-section {
+  max-width: 1222px;
+  margin: 62px 109px 0 109px;
+  display: flex;
+}
+
+.leafs {
+  max-width: 449px;
+  height: 407px;
+  margin: 0;
+}
+
+.leaf{
+
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 549px;
+  height: 340px;
+  margin: 0 0 0 225px;
+}
+.right-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  margin: 36px 0 0 0;
+  color: #717171;
+
+}
+
+.right-section h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  margin: 42px 0 92px -0;
+  color: #636060;
+}
+.right-section button {
+  margin: 0;
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+}
+
+.right-section div {
+  max-width: 104px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 11px 0 15px 27px;
+}
+
+.right-section button:hover {
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #E06733;
+}
+
+
+.about {
   
+}
+/*MAIN*/
+
+
+
+
+
